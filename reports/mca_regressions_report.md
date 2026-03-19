@@ -66,7 +66,9 @@ The high correlation does not make the weighting redundant. The differences emer
 
 ### 3.1 Method
 
-For each of the 9 practices, a logistic regression was fitted using 26 structural predictors: sector dummies (ref: Manufatura), size dummies (ref: Micro), firm age dummies, employment change dummies, Q3 turnover trend dummies, Q4 investment intensity dummies, turnover size ordinal, turnover unknown flag, and financial difficulty ordinal. Q7 barriers were deliberately excluded — they are outcomes, not structural determinants. All 13,559 observations are used in every model (dummies absorb all DK/NA). McFadden pseudo-R² = 1 − (log-lik / log-lik-null).
+For each of the 9 practices, a logistic regression was fitted using 27 structural predictors: sector dummies (ref: Manufatura), size dummies (ref: Micro), firm age dummies (ref: Before 2016), turnover evolution dummies (ref: Unchanged; scr13a codes: ≥10% increase, <10% increase, decreased, DK/NA), Q3 production cost impact dummies (ref: Not changed), Q4 investment intensity dummies, turnover size ordinal, turnover unknown flag, and financial difficulty ordinal. Q7 barriers were deliberately excluded — they are outcomes, not structural determinants. All 13,559 observations are used in every model (dummies absorb all DK/NA). McFadden pseudo-R² = 1 − (log-lik / log-lik-null).
+
+**Note on variable corrections (2026-03-19):** The original analysis mislabelled scr13a as "employee change" — it is actually *turnover change*. The code mapping was also incorrect (code 4 = "Decreased" was treated as DK/NA). The scr12 age labels were corrected from "Before 2000/2001-2010/2011-2015" to the actual SPSS categories "Before 2016/2016-2018/2019-2023/After 2023". Q3 was relabelled from "revenue impact" to "production cost impact" per the questionnaire. All Q7 barrier labels were corrected to match the official questionnaire. The pseudo-R² values below predate these corrections and will be updated when the notebook is next re-executed; the relative ordering is expected to remain similar.
 
 ### 3.2 Results
 
