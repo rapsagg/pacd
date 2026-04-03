@@ -14,8 +14,7 @@ code/
 ├── data/
 │   └── raw/                # Dados originais (.sav)
 ├── notebooks/
-│   ├── NB01_understanding.ipynb   # Carregamento, filtros, seleção de variáveis
-│   └── NB02_analise.ipynb         # EDA, tratamento, MCA, modelação
+│   └── analise.ipynb              # Notebook completo: carregamento → EDA → MCA → modelação
 ├── reports/
 │   ├── mca_regressions_report.md  # Relatório MCA + regressões individuais
 │   └── figures/                   # Gráficos gerados
@@ -23,15 +22,15 @@ code/
 └── README.md
 ```
 
-## Notebooks
+## Notebook
 
-| Notebook | Conteúdo | Estado |
-|----------|----------|--------|
-| **NB01** | Carregamento SPSS, recoding DK/NA, filtro geográfico (EU+UK), filtro PME (<250 FTE), seleção de variáveis | Concluído |
-| **NB02** — Secção 2 | AED: distribuições, bivariadas VD×VI, testes estatísticos, colinearidade | Concluído |
-| **NB02** — Secção 3 | Tratamento: NAs, outliers, dummies, variáveis derivadas, MCA (VD alternativa) | Concluído |
-| **NB02** — Secção 4.1 | Regressões logísticas individuais (9 práticas Q1), comparação com pesos MCA | Concluído |
-| **NB02** — Secção 4.2+ | Modelo multinível (HLM) com variáveis de nível país | Pendente |
+| Secção | Conteúdo | Estado |
+|--------|----------|--------|
+| **1** — Compreensão dos dados | Carregamento SPSS, recoding DK/NA, filtro geográfico (EU+UK), filtro PME (<250 FTE), seleção de variáveis | Concluído |
+| **2** — AED | Distribuições, bivariadas VD×VI, testes estatísticos, colinearidade | Concluído |
+| **3** — Tratamento | NAs, outliers, dummies, variáveis derivadas, MCA (VD alternativa) | Concluído |
+| **4.1** — Regressões individuais | Regressões logísticas individuais (9 práticas Q1), comparação com pesos MCA | Concluído |
+| **4.2+** — Modelo multinível | HLM com variáveis de nível país | Pendente |
 
 ## Variáveis Principais
 
@@ -63,5 +62,5 @@ git clone https://github.com/rapsagg/pacd && cd pacd/code
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 # Colocar initial_data.sav em data/raw/
-jupyter notebook notebooks/
+jupyter notebook notebooks/analise.ipynb
 ```
