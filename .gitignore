@@ -26,6 +26,12 @@ data/processed/*
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
+pacd/data/raw/*
+pacd/data/interim/*
+pacd/data/processed/*
+!pacd/data/raw/.gitkeep
+!pacd/data/interim/.gitkeep
+!pacd/data/processed/.gitkeep
 
 # Reports (generated outputs)
 reports/figures/*

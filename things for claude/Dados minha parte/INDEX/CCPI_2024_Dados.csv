@@ -1,0 +1,65 @@
+Rank,Pais,Score,GHG_Emissions,Renewable_Energy,Energy_Use,Climate_Policy
+4,Dinamarca,75.59,High,High,Medium,Medium
+5,Estónia,72.07,Medium,High,Medium,Medium
+6,Filipinas,70.7,High,Medium,High,Low
+7,Índia,70.25,High,Medium,High,Medium
+8,Países Baixos,69.98,Medium,High,Low,Medium
+9,Marrocos,69.82,High,Medium,High,Medium
+10,Suécia,69.39,High,High,Very Low,Low
+11,Chile,68.74,High,Medium,Low,Medium
+12,Noruega,67.48,High,Very High,Very Low,Low
+13,Portugal,67.39,High,Medium,High,Medium
+14,Alemanha,65.77,Medium,Medium,Medium,Medium
+15,Luxemburgo,65.09,High,Medium,Low,Low
+16,União Europeia (27),64.71,Medium,Medium,Medium,Medium
+17,Nigéria,63.88,High,Low,High,Low
+18,Espanha,63.37,Medium,Medium,Medium,Medium
+19,Lituânia,62.99,Medium,Medium,Medium,Low
+20,Reino Unido,62.36,High,Low,High,Low
+21,Suíça,61.94,Medium,Medium,Medium,Low
+22,Egito,61.8,High,Low,High,Low
+23,Brasil,61.74,Low,High,Medium,Medium
+24,Roménia,61.5,High,Low,Medium,Low
+25,Tailândia,61.38,High,Medium,High,Low
+26,Finlândia,61.11,Medium,High,Very Low,Medium
+27,Vietname,60.94,Low,Medium,Low,Medium
+28,Grécia,60.34,Medium,Medium,High,Low
+29,Malta,59.8,Medium,Medium,High,Low
+30,Paquistão,59.35,High,Low,High,Low
+31,Colômbia,58.68,Low,Low,High,Medium
+32,Áustria,58.17,Medium,Medium,Very Low,Medium
+33,Letónia,57.68,Low,High,Low,Low
+34,Nova Zelândia,57.66,Low,High,Very Low,Low
+35,Croácia,57.32,Low,High,Low,Low
+36,Indonésia,57.2,Low,High,Medium,Low
+37,França,57.12,Medium,Low,Low,Medium
+38,México,55.81,Medium,Low,High,Low
+39,Bélgica,55,Medium,Medium,Very Low,Medium
+40,República Eslovaca,54.47,Medium,Low,Low,Low
+41,Eslovénia,53.57,Low,Medium,Low,Low
+42,Chipre,53.09,Low,Medium,Medium,Low
+43,Irlanda,51.42,Low,Medium,Medium,Low
+44,Itália,50.6,Low,Medium,Medium,Low
+45,África do Sul,49.53,Low,Very Low,High,Low
+46,Bulgária,46.94,Low,Medium,Low,Low
+47,Bielorrússia,46.8,Medium,Low,Medium,Very Low
+48,Usbequistão,46.68,Low,Very Low,Medium,Low
+49,Hungria,45.93,Medium,Low,Low,Very Low
+50,Austrália,45.72,Low,Low,Very Low,Low
+51,China,45.56,Very Low,Medium,Very Low,Medium
+52,República Checa,45.41,Low,Low,Very Low,Low
+53,Argentina,45.39,Very Low,Low,Medium,Low
+54,Argélia,44.54,Low,Very Low,Medium,Low
+55,Polónia,44.4,Low,Low,Low,Low
+56,Turquia,43.82,Low,Medium,Low,Very Low
+57,Estados Unidos,42.79,Very Low,Very Low,Very Low,Medium
+58,Japão,42.08,Low,Low,Low,Very Low
+59,Malásia,38.57,Very Low,Medium,Very Low,Low
+60,Cazaquistão,38.52,Very Low,Low,Very Low,Low
+61,Taiwan,36.94,Very Low,Low,Very Low,Low
+62,Canadá,31.55,Very Low,Very Low,Very Low,Low
+63,Federação Russa,31,Very Low,Very Low,Very Low,Very Low
+64,República da Coreia,29.98,Very Low,Low,Very Low,Low
+65,Emirados Árabes Unidos,24.55,Very Low,Very Low,Very Low,Medium
+66,República Islâmica do Irão,23.53,Very Low,Very Low,Very Low,Low
+67,Arábia Saudita,19.33,Very Low,Very Low,Very Low,Very Low

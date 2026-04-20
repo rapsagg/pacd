@@ -1,0 +1,21 @@
+Modelo binomial
+
+Ols para os mca
+
+Lista de variaveis que pensamos sugerir
+
+Sacar alguns dados e calcular o desvio padrao de alguns paises
+
+Fazer uma acp para as variavies e ver qual trm a melhor
+
+Heterogenidade entre paises dividir por variavies e indices por pais em vez de variaveis juntas por pais
+
+Fazer graficos boxplot para todas as variaveis separadamente na dashboard
+
+Equaçoes do multinivel e as variaveis do nivel superior e começar a mexer no shine (mapas)
+
+Multicolinariedade ao longo de cada país
+
+Histograma do mca para estudar o score
+
+Estudo de colinariedade dos indicadores e  a pca
