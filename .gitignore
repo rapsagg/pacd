@@ -26,6 +26,7 @@ data/processed/*
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
+!data/processed/df_model_app.csv
 pacd/data/raw/*
 pacd/data/interim/*
 pacd/data/processed/*

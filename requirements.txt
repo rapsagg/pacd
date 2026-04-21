@@ -26,6 +26,10 @@ jupyter>=1.0.0
 ipykernel>=6.29.0
 ipywidgets>=8.1.0
 
+# Interactive dashboard
+streamlit>=1.35.0
+openpyxl>=3.1.0
+
 # Utilities
 python-dotenv>=1.0.0
 tqdm>=4.66.0
